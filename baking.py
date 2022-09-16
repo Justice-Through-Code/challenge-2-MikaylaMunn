@@ -17,7 +17,7 @@ def print_ingredients():  # Ways to work with strings/printing
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
     print(f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}")
-print_ingredients()
+# print_ingredients()
 def confirm_ingredients():  # String methods
     # 2.1 Save the f-string you wrote above into a variable called `ingredients`.
     ingredients = (f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}")
@@ -37,7 +37,7 @@ def confirm_ingredients():  # String methods
     # 2.7 That looks better. Let's make it official: use another string method to 
     # print the string in the `ingredients` variable in all-caps now that it's right.
     print(ingredients.upper())
-confirm_ingredients()
+# confirm_ingredients()
 def favorite_bake():  # User Input/Type conversion
     # The beauty of these ingredients is that you can make tons with them. 
     # Let's get some user input to decide what to bake!
@@ -58,4 +58,4 @@ def favorite_bake():  # User Input/Type conversion
     
     print(f'Ooooh, {baked_good}s are delicious!')
     print(f'We recommend you eat {baked_good}s at least {int(frequency) * 2} times a month!')
-favorite_bake()
+# favorite_bake()
